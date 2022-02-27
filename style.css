@@ -128,7 +128,19 @@ footer p{
     
 }
 
+#items-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+#items-wrapper button {
+    width: 20px;
+    height: 20px;
+    margin-top: 220px;
+}
+
 .item  img{
+    padding: 25px;
     margin-top: 125px;
     width: 300px;
 }
