@@ -14,6 +14,8 @@ header {
 
 body {
     background-color: rgb(107, 101, 101);
+    margin: 0;
+    min-height: 100vh;
 }
 
 .nav {
@@ -122,34 +124,34 @@ footer p{
     justify-content: center;
 }
 
-#items {
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-#items-wrapper {
-    display: flex;
-    justify-content: space-around;
-}
-
-#items-wrapper button {
-    width: 20px;
-    height: 20px;
-    margin-top: 220px;
-}
-
-.item  img{
-    padding: 25px;
-    margin-top: 125px;
-    width: 300px;
-}
-
-.title-projects {
+h1 {
+    color: white;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    font-size: 25px;
-    color: white;
-    cursor: pointer;
+    margin: 25px;
+    margin-bottom: 100px;
+}
+
+.carrossel {
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 300px;
+    width: 500px;
+    border-bottom: 2px solid black;
+
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.container img{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
