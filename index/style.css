@@ -7,4 +7,89 @@
 
 body {
     background-color: #eac7c7;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+.nav a {
+    color: black;
+    margin: 5px;
+    text-decoration-line: none;
+    font-size: 20px;
+}
+
+.border {
+    border-bottom: 2px solid black;
+}
+
+.main-main {
+    display: flex;
+    justify-content: space-around;
+    margin: 75px;
+}
+
+.info {
+    font-size: 45px;
+    font: icon;
+}
+
+.tecs {
+    display: flex;
+    margin: 30px;
+}
+
+.space1-tecs {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 256px;
+    margin: 30px;
+}
+
+.space1-tecs img {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+}
+.space2-tecs {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 256px;
+    margin: 30px;
+}
+
+.space2-tecs img {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.space3-tecs {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 256px;
+    margin: 30px;
+}
+
+.space3-tecs img {
+    border-radius: 30px;
+    margin: 10px;
+    width: 80px;
+    height: 80px;
 }
