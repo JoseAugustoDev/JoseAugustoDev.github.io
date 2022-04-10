@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: #eac7c7;
+    background: rgb(255,189,160);
+    background: linear-gradient(90deg, rgba(255,189,160,1) 0%, rgb(167, 130, 122) 100%);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -126,6 +127,8 @@ body {
     margin-bottom: 75px;
     margin-right: 60px;
     margin-left: 60px;
+    -webkit-box-shadow: 0px 0px 18px 2px #000000; 
+    box-shadow: 0px 0px 18px 2px #000000;
 }
 
 .footer-grid {
