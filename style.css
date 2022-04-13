@@ -10,7 +10,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.header-grid {
+.header-flex {
     display: flex;
     justify-content: space-between;
     margin: 25px;
@@ -48,7 +48,7 @@ main {
     background: linear-gradient(90deg, rgb(247, 202, 182) 0%, rgb(196, 161, 154) 100%);
 }
 
-.main-grid {
+.main-flex {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -147,17 +147,24 @@ main {
 }
 
 .projects-imgs img {
+    cursor: pointer;
     width: 300px;
     height: 200px;
     margin: 30px;
     margin-bottom: 75px;
     margin-right: 60px;
     margin-left: 60px;
-    -webkit-box-shadow: 0px 0px 18px 2px #000000; 
-    box-shadow: 0px 0px 18px 2px #000000;
+    box-shadow: 0px 0px 18px 2px #575050;
 }
 
-.footer-grid {
+.projects-imgs img:hover {
+    margin: 0;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.footer-flex {
     display: flex;
     justify-content: center;
 }
