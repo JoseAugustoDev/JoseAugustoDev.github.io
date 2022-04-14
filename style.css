@@ -40,6 +40,11 @@ body {
     color: #d0a796;
 }
 
+a {
+    text-decoration-line: none;
+    color: #000000;
+}
+
 .border {
     border-bottom: 2px solid black;
 }
