@@ -7,8 +7,8 @@
 }
 
 body {
-    background: #d0a796;
     font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
 }
 
 .header-flex {
@@ -54,7 +54,7 @@ main {
     display: flex;
     justify-content: center;
     height: 70vh;
-    background: linear-gradient(90deg, rgb(247, 202, 182) 0%, rgb(196, 161, 154) 100%);
+    background-color: white;
 }
 
 form {
@@ -64,18 +64,30 @@ form {
 }
 
 form input {
-    border-radius: 15px;
+    background: rgb(235, 189, 169);
     padding: 15px;
     width: 400px;
     height: 75px;
     margin: 30px;
+    cursor: pointer;
+}
+form input:hover {
+    border: 3px solid #624444;
+
 }
 
 form button {
     border-radius: 15px;
+    background-color: rgb(235, 202, 182);
     width: 400px;
     height: 75px;
     margin: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    border: 3px solid #624444;
 }
 
 .footer-flex {

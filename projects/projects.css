@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #d0a796;
+    background: antiquewhite;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -53,7 +53,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgb(247, 202, 182) 0%, rgb(196, 161, 154) 100%);
+    background-color: white;
 }
 
 .projetos img {
@@ -61,7 +61,7 @@ main {
     width: 400px;
     height: 300px;
     margin: 50px;
-    box-shadow: 0px 0px 18px 2px #575050;
+    box-shadow: 5px 5px 18px 5px #9f9595;
 }
 
 .footer-flex {
