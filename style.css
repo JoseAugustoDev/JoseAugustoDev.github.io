@@ -6,7 +6,11 @@
 }
 
 body {
+<<<<<<< HEAD
     background-color: aliceblue;
+=======
+    background-color: antiquewhite;
+>>>>>>> fe545a3f1d9244e5b4ed239aac7a114c750ef873
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -50,7 +54,11 @@ a {
 }
 
 main {
+<<<<<<< HEAD
     background-color: rgb(189, 214, 214);;
+=======
+    background-color: white;
+>>>>>>> fe545a3f1d9244e5b4ed239aac7a114c750ef873
 }
 
 .main-flex {
@@ -139,7 +147,7 @@ main {
 }
 
 .space1-tecs {
-    background-color: white;
+    background-color: #dac0b5;
     width: 100px;
     height: 100px;
     border-radius: 256px;
@@ -147,7 +155,7 @@ main {
 }
 
 .space1-tecs:hover {
-    box-shadow: 0px 17px 33px 4px #aa9696;
+    box-shadow: 0px 5px 33px 4px #aa9696;
     padding:  5px 0 0 0;
 }
 
@@ -157,7 +165,7 @@ main {
     height: 80px;
 }
 .space2-tecs {
-    background-color: white;
+    background-color: #dac0b5;
     width: 100px;
     height: 100px;
     border-radius: 256px;
@@ -165,7 +173,7 @@ main {
 }
 
 .space2-tecs:hover {
-    box-shadow: 0px 17px 33px 4px #aa9696;
+    box-shadow: 0px 5px 33px 4px #aa9696;
     padding:  5px 0 0 0;
 }
 
@@ -176,7 +184,7 @@ main {
 }
 
 .space3-tecs {
-    background-color: white;
+    background-color: #dac0b5;
     width: 100px;
     height: 100px;
     border-radius: 256px;
@@ -184,7 +192,7 @@ main {
 }
 
 .space3-tecs:hover {
-    box-shadow: 0px 17px 33px 4px #aa9696;
+    box-shadow: 0px 5px 33px 4px #aa9696;
     padding:  5px 0 0 0;
 }
 
@@ -213,7 +221,7 @@ main {
     height: 200px;
     margin: 50px;
     margin-bottom: 75px;
-    box-shadow: 0px 0px 18px 2px #575050;
+    box-shadow: 5px 5px 18px 5px #9f9595;
 }
 @media screen and (min-width: 700px) {
     .projects-imgs img:hover {
