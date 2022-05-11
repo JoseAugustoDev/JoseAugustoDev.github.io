@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #d0a796;
+    background: aliceblue;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .nav a:hover {
     background-color: #000000;
-    color: #d0a796;
+    color: rgb(189, 214, 214);
 }
 
 a {
@@ -53,7 +53,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, rgb(247, 202, 182) 0%, rgb(196, 161, 154) 100%);
+    background: rgb(189, 214, 214);
 }
 
 .projetos img {

@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #d0a796;
+    background: aliceblue;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -43,7 +43,7 @@ a {
 
 .nav a:hover {
     background-color: #000000;
-    color: #d0a796;
+    color: rgb(189, 214, 214);
 }
 
 .border {
@@ -54,7 +54,7 @@ main {
     display: flex;
     justify-content: center;
     height: 70vh;
-    background: linear-gradient(90deg, rgb(247, 202, 182) 0%, rgb(196, 161, 154) 100%);
+    background: rgb(189, 214, 214);
 }
 
 form {
@@ -81,6 +81,7 @@ form button {
 .footer-flex {
     display: flex;
     justify-content: center;
+    background-color: aliceblue;
 }
 
 .place-imgs {
