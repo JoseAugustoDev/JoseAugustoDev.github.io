@@ -6,11 +6,7 @@
 }
 
 body {
-<<<<<<< HEAD
     background: aliceblue;
-=======
-    background: antiquewhite;
->>>>>>> fe545a3f1d9244e5b4ed239aac7a114c750ef873
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -57,11 +53,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     background: rgb(189, 214, 214);
-=======
-    background-color: white;
->>>>>>> fe545a3f1d9244e5b4ed239aac7a114c750ef873
 }
 
 .projetos img {

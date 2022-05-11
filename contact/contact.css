@@ -7,12 +7,8 @@
 }
 
 body {
-<<<<<<< HEAD
     background: aliceblue;
-=======
->>>>>>> fe545a3f1d9244e5b4ed239aac7a114c750ef873
     font-family: 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
 }
 
 .header-flex {
@@ -58,11 +54,7 @@ main {
     display: flex;
     justify-content: center;
     height: 70vh;
-<<<<<<< HEAD
     background: rgb(189, 214, 214);
-=======
-    background-color: white;
->>>>>>> fe545a3f1d9244e5b4ed239aac7a114c750ef873
 }
 
 form {

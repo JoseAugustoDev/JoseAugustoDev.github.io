@@ -6,11 +6,7 @@
 }
 
 body {
-<<<<<<< HEAD
     background-color: aliceblue;
-=======
-    background-color: antiquewhite;
->>>>>>> fe545a3f1d9244e5b4ed239aac7a114c750ef873
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -54,11 +50,7 @@ a {
 }
 
 main {
-<<<<<<< HEAD
-    background-color: rgb(189, 214, 214);;
-=======
-    background-color: white;
->>>>>>> fe545a3f1d9244e5b4ed239aac7a114c750ef873
+    background-color: rgb(189, 214, 214);
 }
 
 .main-flex {
