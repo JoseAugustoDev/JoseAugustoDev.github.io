@@ -6,7 +6,7 @@
 }
 
 body {
-    background: aliceblue;
+    background-color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -53,7 +53,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(189, 214, 214);
+    background-color: rgb(189, 214, 214);
 }
 
 .projetos img {
