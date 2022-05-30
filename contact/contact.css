@@ -64,7 +64,8 @@ form {
 }
 
 form input {
-    background: rgb(235, 189, 169);
+    background: rgb(217, 241, 241);
+    color: #000000;
     padding: 15px;
     width: 400px;
     height: 75px;
@@ -78,7 +79,7 @@ form input:hover {
 
 form button {
     border-radius: 15px;
-    background-color: rgb(235, 202, 182);
+    background-color: rgb(217, 241, 241);
     width: 400px;
     height: 75px;
     margin: 30px;
