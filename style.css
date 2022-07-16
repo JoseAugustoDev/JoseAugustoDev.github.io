@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 
 .container, header, .nav-bar ul, main, footer, .social-media {
@@ -27,6 +26,10 @@ header {
     font-family: 'Raleway', sans-serif;
 }
 
+.logo h2 {
+    cursor: pointer;
+}
+
 .logo h2 span {
     color: #0091ad;
 }
@@ -44,7 +47,7 @@ li {
 }
 
 main {
-    margin: 1.5rem;
+    margin: 2.5rem;
     align-items: center;
     justify-content: space-around;
 }
@@ -62,15 +65,12 @@ main {
     height: 60vh;
 }
 
-footer {
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 17vh;
+.social-media {
+    flex-direction: column;
 }
 
 .social-media a {
-    margin: 0 1.5rem 0 1.5rem;
+    margin: 2rem;
 }
 
 .social-media img {
