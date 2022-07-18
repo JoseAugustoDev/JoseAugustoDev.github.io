@@ -52,6 +52,19 @@ li {
     list-style: none;
 }
 
+main {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-evenly;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     align-items: center;
     justify-content: center;
