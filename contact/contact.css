@@ -53,11 +53,14 @@ li {
 }
 
 main {
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 70vh;
-    justify-content: space-evenly;
+}
+
+main div {
+    margin: 0 2rem 0 2rem;
 }
 
 footer {
