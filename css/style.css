@@ -6,14 +6,15 @@
 }
 
 body {
+    width: 100%;
     height: 100vh;
     background-color: #d5cfe1;
-    overflow-x: hidden;
 }
 
 .container {
     flex-direction: column;
     width: 100%;
+    overflow-x: hidden;
 }
 
 header {
