@@ -34,8 +34,23 @@ header {
     text-decoration: none;
 }
 
-.second-logo {
+.second-logo, .hamburger {
     display: none;
+}
+
+.hamburger img {
+    margin: 0 1rem 0 0;
+    width: 2rem;
+    height: 2rem;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: #d5cfe1;
+    margin: 0 1rem 0 0;
+    width: 2rem;
+    height: 2rem;
 }
 
 ul a {
@@ -76,11 +91,11 @@ main {
 }
 
 @media screen and (max-width: 615px) {
-    .second-logo {
+    .second-logo, .hamburger {
         display: grid;
     }
     
-    .logo {
+    .logo, .nav-bar {
         display: none;
     }
 

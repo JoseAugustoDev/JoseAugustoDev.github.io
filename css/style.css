@@ -23,8 +23,14 @@ header {
     height: 10vh;
 }
 
-.second-logo {
+.second-logo, .hamburger {
     display: none;
+}
+
+.hamburger img {
+    margin: 0 1rem 0 0;
+    width: 2rem;
+    height: 2rem;
 }
 
 .logo h2 {
@@ -33,6 +39,15 @@ header {
 
 .logo h2 span, .second-logo span {
     color: #0091ad;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: #d5cfe1;
+    margin: 0 1rem 0 0;
+    width: 2rem;
+    height: 2rem;
 }
 
 a {
@@ -85,21 +100,26 @@ main {
     .social-media {
         flex-direction: row;
     }
+    
+    .social-media a {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
 }
 
 @media screen and (max-width: 615px) {
-    .second-logo {
+    .second-logo, .hamburger {
         display: grid;
     }
     
-    .logo {
+    .logo, .nav-bar {
         display: none;
     }
 
 }
 
 .social-media a {
-    margin: 1.5rem;
+    margin: 1rem;
 }
 
 .social-media img {
