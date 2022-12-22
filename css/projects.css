@@ -15,12 +15,6 @@ html, body {
     background-color: #f0f7f4;
 }
 
-header, footer {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    background: #ccc;
-}
-
 header {
     display: flex;
     justify-content: space-between;
