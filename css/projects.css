@@ -54,12 +54,28 @@ li {
 }
 
 main {
-    display: flex;
     height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     align-items: center;
     justify-content: center;
     margin: 2rem 0;
+}
+
+.box {
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.box img {
+    width: 13rem;
+    height: 11rem;
 }
 
 article h1{
