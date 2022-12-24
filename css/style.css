@@ -27,6 +27,10 @@ header {
     margin: 1.5rem;
 }
 
+.small-logo {
+    display: none;
+}
+
 .logo span {
     color: #7e8d85;
 }
@@ -70,4 +74,24 @@ footer img {
     width: 4rem;
     height: 4rem;
     margin: 1rem;
+}
+
+@media screen and (max-width: 900px) {    
+    main {
+        flex-direction: column;
+    }
+
+    header .logo {
+        display: none;
+    }
+
+    header .small-logo {
+        display: flex;
+    }
+
+    footer img {
+        width: 3rem;
+        height: 3rem;
+        margin: 0.8rem;
+    }
 }
