@@ -69,12 +69,10 @@ picture {
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* height: 750px; */
 }
 
 img {
     width: 70%;
-    height: 65%;
 }
 
 footer {
